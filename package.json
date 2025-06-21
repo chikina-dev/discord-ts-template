@@ -1,0 +1,20 @@
+{
+  "name": "discord-ts-template",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A template for creating Discord bots using TypeScript and Bun.",
+  "scripts": {
+    "start": "bun run index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "discord.js": "^14.20.0"
+  }
+}
